@@ -1,0 +1,80 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  z-index: -10;
+  zoom: 1;
+  background-color: #fff;
+  background: url(wallhalla-17-2560x1440.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+.big_box {
+  width: 800px;
+  height: 400px;
+  background: #d9e3e8;
+  margin: 125px auto;
+  border-radius: 20px;
+}
+.left_box {
+  width: 250px;
+  height: 400px;
+  float: left;
+}
+.right_box {
+  width: 550px;
+  height: 400px;
+  float: right;
+  border-radius: 20px;
+}
+.register_top {
+  width: 100%;
+  height: 30px;
+  float: left;
+  /* border-radius: 20px 20px 0px 0px; */
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  line-height: 50px;
+  font-size: 20pt;
+}
+.ref {
+  width: 380px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 25px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+}
+.notion {
+  width: 380px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 25px;
+  float: right;
+  text-align: right;
+  line-height: 40px;
+}
+#username,
+#password,
+#confirmPassword,
+#age,
+#email {
+  border-color: rgb(200, 199, 199);
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+}
+#btn {
+  border-color: white;
+  width: 100px;
+  height: 25px;
+  font-size: 10pt;
+}

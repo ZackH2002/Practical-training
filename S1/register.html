@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="register.css" />
+    <script type="text/javascript" src="register.js"></script>
+  </head>
+  <body>
+    <div class="bg">
+      <!-- <h1>Login From</h1> -->
+      <div class="big_box">
+        <div class="left_box">
+          <div class="register_top">Sign up</div>
+          <label class="notion">账号：</label>
+          <label class="notion">密码：</label>
+          <label class="notion">重复密码：</label>
+          <label class="notion">性别：</label>
+          <label class="notion">年龄：</label>
+          <label class="notion">邮箱：</label>
+        </div>
+        <div class="right_box">
+          <form action="" method="post">
+            <div class="register">
+              <div class="register_top"></div>
+              <div class="ref">
+                <input type="text" id="username" />
+              </div>
+              <div class="ref">
+                <input type="password" id="password" />
+              </div>
+              <div class="ref">
+                <input type="password" id="confirmPassword" />
+              </div>
+              <div class="ref">
+                <input type="radio" checked="checked" name="sex" id="man" />男
+                <input type="radio" id="woman" name="sex" />女
+              </div>
+              <div class="ref">
+                <input type="text" id="age" />
+              </div>
+              <div class="ref">
+                <input type="text" id="email" />
+              </div>
+              <div class="ref">
+                <input
+                  type="button"
+                  value="注册"
+                  onclick="valueGet()"
+                  id="btn"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

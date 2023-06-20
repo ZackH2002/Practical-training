@@ -1,0 +1,81 @@
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 1000px;
+  z-index: -10;
+  zoom: 1;
+  background-color: #fff;
+  background: url(wallhalla-17-2560x1440.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}
+.big_box {
+  width: 800px;
+  height: 400px;
+  background: #d9e3e8;
+  margin: 125px auto;
+  border-radius: 20px;
+}
+.left_box {
+  width: 400px;
+  height: 400px;
+  float: left;
+  background-color: #e0edfd;
+  background: url(login.png);
+  background-size: cover;
+  zoom: 1;
+  z-index: -10;
+}
+.right_box {
+  background-color: white;
+  width: 400px;
+  height: 400px;
+  float: right;
+  border-radius: 20px;
+}
+.login_top {
+  width: 100%;
+  height: 50px;
+  float: left;
+  /* border-radius: 20px 20px 0px 0px; */
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  line-height: 50px;
+  font-size: 20pt;
+}
+.ref {
+  width: 380px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 50px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+}
+.link {
+  width: 400px;
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+}
+#username,
+#password {
+  border-color: rgb(200, 199, 199);
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+#btn,
+#res {
+  border-color: white;
+  width: 100px;
+  height: 25px;
+  font-size: 10pt;
+}

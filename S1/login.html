@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+    <script type="text/javascript" src="login.js"></script>
+  </head>
+  <body>
+    <div class="bg">
+      <!-- <h1>Login From</h1> -->
+      <div class="big_box">
+        <div class="left_box"></div>
+        <div class="right_box">
+          <form id="myFrom" action="" method="post">
+            <div class="login">
+              <div class="login_top">Login</div>
+              <div class="ref">
+                <label>账号：</label>
+                <input type="text" id="username" />
+              </div>
+              <div class="ref">
+                <label>密码：</label>
+                <input type="password" id="password" />
+              </div>
+              <div class="ref">
+                <input
+                  type="button"
+                  value="登录"
+                  id="btn"
+                  onclick="valueGet()"
+                />
+                <input type="reset" value="重置" id="res" />
+              </div>
+              <a class="link" href="register.html">注册</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
